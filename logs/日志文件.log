@@ -1,0 +1,482 @@
+10:03:03 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:03:03 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:03:04 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:03:04 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:03:04 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:03:04 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:03:04 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:03:04 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:03:04 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:03:04 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:03:04 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:03:04 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:03:04 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:03:04 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:03:05 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:03:08 - DEBUG | login.login:67 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"BAJXv99xaNZw0DOXRlHK+w==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCWiXtLR8uWaNauM2JY9p6SlxXkaiUBcRZPZ+6tWT+UqbTgk5fPR8AmKHVywL2TUxXyLMjyFh12dGlPMVAe0Z8f2fHXTLx1XGdNMRHA1lJrBQqDi8sNgBCFXHANnVWUcHn8UDOnzeTyq7S8Eia2VT0WSElY22BdBhFrmDbSm8sMrnrQeMd1JCRDSghk6+mZM/1VBicQShH82EkImgcwscAa3BJLvPUBW0Uj/msqK9xm98+ly8Yan5Fd6NBTls1y6seQS4HDQIqjxdM9eaCuncP8QFmWdlKkDVaYmmpH4LTovC","description":"成功","securityStatus":0,"nonce":5677941917933880320,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"K1JLxnmimhZgxFDyWWYkGA==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703901788000&fid=0&p_lm=1&auth=ZRFHAaBMgp7ZaxCTVQt3fs1BAlSyAAHun8tXVBEQkvCGvtjaC2SHkgHf5rs7%2Bv01mBDYEqGsbLznsgxOln%2B2hlyaCkh5MbgZ2Q%2BIEnmMlYuWr78%2BIJEaA5RRuUncT15pv8ulHmcB73KkCO59yPwBS5mJauGEY46NEsvE7l8aoeA%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=SQ8vukVaCiQBsVMb&_ssign=hZKlFHtbLVcDdz1UUxsM7ND%2FjLU%3D","pwd":1,"child":0,"desc":"成功"}
+10:03:08 - SUCCESS | login.login:72 - 小米账号登录成功
+10:03:10 - DEBUG | miuitask.main:32 - {}
+10:03:11 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:03:13 - DEBUG | login.login:67 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"AE09C61SfqUpX1M7bVwjeA==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCVgmjTZDdjzuoY23ctXLVfFbY8zXVLNH7LWoVbUAJuc20Py1nPXkBXYZ+KNjEpGDa+f8yo8YEuNNDFRHeSkB94QN7V0p5xUlPR5eoBIltlTqaz0UAgPud90pBHXsGnFDdDmmRnOLEJxbGAOw6iFQkEsouApvmuvzTnvF9FBXSvHgGLatZI8/HXTM59Flzrk3AgOLskdm7uQWF+3T53Q0CUC5gTo68OJ2rmE5jX+ShetRETrSXUeZoYTDtawv5iPXg554CehLmqXabpnO/sP/mcJoFZr9B3PxIgNeXKBUzPAo","description":"成功","securityStatus":0,"nonce":5545884594061185024,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"L336jXfikyOvFdU6YN6IGQ==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703901793000&fid=0&p_lm=1&auth=SPIn3EIMeRzYUVgf5%2BfnIqTwYekdre045XdzgogTRqoaDFmkjx1KKY9R3DcoQvoyce9ET8WOLbTO%2FBWLv05w7OWzO8jk7yxKcEEv9iUUyF4wpA2kbZWER9kIghBBYbmQoOlvDZNkBHdleH%2BgQ9AlsBJBkjgz%2BvZhsNynD9rDqTw%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=WTC3g7zlo%2F0BsVMb&_ssign=oBAlysevZ8931QysuXZeUsuIwyw%3D","pwd":1,"child":0,"desc":"成功"}
+10:03:13 - SUCCESS | login.login:72 - 小米账号登录成功
+10:05:33 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:05:33 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:05:33 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:05:33 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:05:33 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:05:33 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:05:33 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:05:33 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:05:33 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:05:33 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:05:33 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:05:33 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:05:33 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:05:33 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:05:33 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:05:36 - DEBUG | login.login:67 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"4e7W+3qvnWUei4tFCg9Dkg==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCYWDQgo8zat/RCYClIXAfdjIMxabqYfdWWdgGiR/CvgF7a6U+FZilObF9puEjYZupNHzj0FuzQFZka5W+m+/S7tvWAw6ON1dFZttP8z/16vljUkh4YQYFQt9XSgnhI6c035zYhmhhIlwudWpZf8VQ/MMaFE9Rq3aKiSSI8+u4Z6I7B7UyMP7/bD+7miudvzgbEpk7bmTkG8CtGmhGaD834ug4fk4k4K0GO4kt3q+3GQ2jdD8DuJ/5NBdqjFDDnIqI/ePxoCaN25QoUdlx50sWT6TSlGHTkF3Exi4gSDiwkiV","description":"成功","securityStatus":0,"nonce":4909623047504575488,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"zNWlRHL7k6bkAwIU9aBBFw==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703901936000&fid=0&p_lm=1&auth=i44ctWZg%2Bk6l8TYbumNuzwS8Xg6NFVljf48un6xY%2FtrqL36Y8jEXZPbZLUJZJ3pyrbzw12nyQqREHonJ8D0A7s5vA0AMSpv4zTC%2FYLRKFnQKTAgtP5T%2FfnS2MWXykRANac7dhiC0vjkmTmDtjFjCP4htxkibEDEu%2FmL%2Bn05Vsao%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=upXEfByQFRABsVMd&_ssign=BXYdF38T93xm2gYU0iQ%2FiXfCV3Y%3D","pwd":1,"child":0,"desc":"成功"}
+10:05:36 - SUCCESS | login.login:72 - 小米账号登录成功
+10:05:41 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:05:44 - DEBUG | login.login:67 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"o/i9xQrQEw566jZP/AokPg==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCTrCzRCIdPWlUNYZjGRh/QSsRsndIhp4qbHwek/Q0HYFdYVY63ikDfD5SfIETvC+iHcpwTFl6e7RWsi9L2Wng4x+ivealsSta2vjDZJc3usSvg96FEqw+FTgmHyqzYgGItlBfMkHBaLLDocxA9jT6VYLF3Hzyo63NKRG0ACTHWMORnCFQOcfeT76L9Vv9p1DKxKL3SNxl/Xh+ZSvTNQSBlz0IKEwJ+mErclVigTjrjnHGi9W81WvFmRsYD8sEffC9yx/bCJvp/Gaho1e3EYE5vN4gsj3RR4cSbWJ5mSoe1cF","description":"成功","securityStatus":0,"nonce":4426239776805800960,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"6WXLr2sK5e2ReK2oMAh1Sw==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703901943000&fid=0&p_lm=1&auth=RKGcJ616%2BUjlC7YP0RNCS7vHKrKTBsDsmp7CMHRdu6JN2w6I2209I3upvfOwmOvOBIDLCdAU2unOxtVG%2FmPY5y6PH2MDSGUST%2FPsy%2FIo5p1%2Ba0t%2BEYUADiJ37peLm%2B9Q9pW5DPklhXItc7Jw0xs%2BA4cJL6BVIV0efVIR3akd5zE%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=YBMZajDBLLwBsVMd&_ssign=m8Rv%2BWmjcOS9hbSmRF8h%2FA4agp4%3D","pwd":1,"child":0,"desc":"成功"}
+10:05:44 - SUCCESS | login.login:72 - 小米账号登录成功
+10:06:42 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:06:42 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:06:42 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:06:42 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:06:42 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:06:42 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:06:42 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:06:42 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:06:42 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:06:42 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:06:42 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:06:42 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:06:42 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:06:42 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:06:44 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:06:47 - DEBUG | login.login:67 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"ngUNKtmzqXx5IR/VDFdhww==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCclu90nlFmVVZjRjNUPMDsMp/utKPAJpWUHj14DTzRKZgmXVv4jVB5RgHlNCFoOK/dPY7u86E4w9FbNXXsnO5G5CxhGwfrgVMxevDHRQ1OU2KnNAitgEh9XQOvzxmik4BAH9aM35r4bMUA3Ce++BbsVuEE7994fRN1+X/MVc6aVSnVqzC9rXoqmgOaMk5gZwHrUiDJeirWca7Z6hylmNl0FJD0h9J8ilObFf6ui8vwSW3CweRwR6VCzpCB9KHJoehL3RRaIX2kG80awUin76hhQfaahJVe2xtyDMjmk7BJ32","description":"成功","securityStatus":0,"nonce":6233427126500278272,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"Namzv1Wt/Mzh329LwZa6nQ==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902006000&fid=0&p_lm=1&auth=cl%2BkSb4qBBkJN6WtdWjjCOJRHJg6kFTm84Mv%2FZAeqlgDcD4hNNOiuR2Vn5yXuUYEZaDGv1nrcDJe70JPDrMzmLgq2b7%2B6J%2Bm4e8vWVOIBXPhYiR1V8w6dPp6cq2YrfQ5V6EG%2BQS3d3hzOg1BJ1VWoVjttth0N6LAb4Wk4sS1cmc%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=GceLL5MYOycBsVMe&_ssign=feez4Ql7JaO8BC6k6XPXYg8NzRQ%3D","pwd":1,"child":0,"desc":"成功"}
+10:06:47 - SUCCESS | login.login:72 - 小米账号登录成功
+10:06:49 - INFO  | miuitask.main:33 - cookie:
+10:06:49 - INFO  | miuitask.main:34 - {}
+10:10:23 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:10:23 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:10:23 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:10:23 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:10:23 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:10:23 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:10:23 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:10:23 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:10:23 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:10:23 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:10:23 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:10:23 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:10:23 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:10:23 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:10:24 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:10:26 - DEBUG | login.login:68 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"udm3nVQFkfG99o/6PEQd9w==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCdT5gBlYkXJJiNW9gdSK0dZGhk3MKnPxAm5UU00XwlbYASktwzdmCskilMmwr3g8rEUgtc3cnureYHvheOGZ3ZuY4JIxFtfe0nJ3Ma3f/5r9xMg1eLvw3IbzH2/YSncZna0lCzZkhInGn9LnimgqAjK8emmYTCBE9BqYgfEW3rT5Uw4YRB22GSzKleGDk+CXK02wPOKuezqda2isB4kT0TqA0KCFUXddnK4gW+c9hjLvlHj7IXW7aDqN0/gFgf+n8jHjO5wqzuCaGsfrJG6gvVrW38Ja9hWOUWxTWgeJhyE1","description":"成功","securityStatus":0,"nonce":2110861181946938368,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"XPhoCkG6TBAK89SXs9ZYeg==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902226000&fid=0&p_lm=1&auth=D94qHeRfo9suAwqo6xkqT8HgKLnWEd%2F2mVDqnlSSa1G5cgYkpB3SjC7d1LWOD%2FAXAYnEVHAr8cDQdePlldyPmgmxzq1AV3kE%2BtBChdPpOx0ypI8JI7bcjGOL6K3XGSZLBnQEGfX5BG5qsPboPYWHwB%2BVetTXPud%2BWkkPru2TfUs%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=3UcdU45BAWoBsVMi&_ssign=ijkGABW9UjpyeWYmkb74tthQ3mg%3D","pwd":1,"child":0,"desc":"成功"}
+10:10:26 - SUCCESS | login.login:73 - 小米账号登录成功
+10:10:26 - INFO  | login.login:75 - self.account.cookies["passToken"]:
+10:10:26 - INFO  | login.login:75 - V1:DXmurwq2/R1BHTELu6obCdT5gBlYkXJJiNW9gdSK0dZGhk3MKnPxAm5UU00XwlbYASktwzdmCskilMmwr3g8rEUgtc3cnureYHvheOGZ3ZuY4JIxFtfe0nJ3Ma3f/5r9xMg1eLvw3IbzH2/YSncZna0lCzZkhInGn9LnimgqAjK8emmYTCBE9BqYgfEW3rT5Uw4YRB22GSzKleGDk+CXK02wPOKuezqda2isB4kT0TqA0KCFUXddnK4gW+c9hjLvlHj7IXW7aDqN0/gFgf+n8jHjO5wqzuCaGsfrJG6gvVrW38Ja9hWOUWxTWgeJhyE1
+10:10:26 - INFO  | login.login:77 - self.account.uid:
+10:10:26 - INFO  | login.login:77 - 1114280298
+10:10:28 - INFO  | miuitask.main:33 - cookie:
+10:10:28 - INFO  | miuitask.main:34 - {}
+10:12:25 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:12:25 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:12:25 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:12:25 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:12:25 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:12:25 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:12:25 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:12:25 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:12:25 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:12:25 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:12:25 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:12:25 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:12:25 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:12:25 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:12:26 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:12:28 - DEBUG | login.login:68 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"jwh4dotovXgqs16p8qAmPw==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCSlngKj5ulS440MlnXZDO9Grl3Lbu1HZQetIoinmvh0UJ1O5REdxWgHr6KY+SlkZWmMv+QsfBXEX0yE+nyBbn2cKYUZbzVetANrpn8bVVDWLYLhhCg67EuOzPe7Iq1H380rzqNX2bao3xchxDIa4W8zLdt6Rh3GjmZ+MiDm+HU70SO0weJNGGk31cf/JIyc0CdyEUkg6LxITD9v5Lb+bYckBjeGBD/SrcD7x+mRt5gEjXodFSYs8jvavkPKvIHT78gZ9CWEXjy2GImwuXxsYT1N6sIOkUJzR8J0nYMfXfnCu","description":"成功","securityStatus":0,"nonce":8243702568785637376,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"ZM7aVFDgvO4M6msLFWicNQ==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902348000&fid=0&p_lm=1&auth=RPBnL3r6b0ObyVNI8MumyFi6qVsku9m8Ak9SOITJWlSisWCtqih5iSHAysGYvj00DP2A1A8CYgj2%2B6kCq3SQgDRY0EZR86HaLy6YW%2FJjJpTgiOWlYiMfzeUUCk3vIXXBdyVjzk5GHiQedAHSrVXbBplC2Z1izVkT%2BjxrFaiQYXk%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=otA8rhytVEoBsVMk&_ssign=vFUnjd06pES%2BtpLOxkIT4%2FomY0U%3D","pwd":1,"child":0,"desc":"成功"}
+10:12:28 - SUCCESS | login.login:73 - 小米账号登录成功
+10:12:30 - INFO  | login.login:81 - cookie:
+10:12:30 - INFO  | login.login:81 - {}
+10:12:30 - INFO  | miuitask.main:33 - cookie:
+10:12:30 - INFO  | miuitask.main:34 - {}
+10:13:14 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:13:14 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:13:14 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:13:14 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:13:14 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:13:14 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:13:14 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:13:14 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:13:14 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:13:14 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:13:14 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:13:14 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:13:14 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:13:14 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:13:15 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:13:18 - DEBUG | login.login:68 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"ZCSCqhEFNXL5vN6Zr4J+DA==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCZ3wTOdN94rT5hG5FpOotk1DTfBCbpAHRvwIvAQpbh0uyxB8bIfTqTD/mcWFbQV4s4yUe1GHEP+AASd6spxTyHCDeT6su6zNKEw6PY3WwAf/pRFBc/priRiTSx0jxqP1TfD2ybTejRn8rBQGcHB/wuYFlDTDE+xnl1XqK9DFKdhxGoowVkTuGJy3Jv62K/zDdJynrHx9wUrXwtne48XJbrdr0iaEH+8mi+fXERqTz7NrRbVSQ59zDMx7fg5s9wkR5w7wtT0Dqj3p534vGMa4OMR9tkZekrL+0pTg/8OVUP4/","description":"成功","securityStatus":0,"nonce":1004067940590364672,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"KHOELwG4vUje68VI6kflFg==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902397000&fid=0&p_lm=1&auth=CAOkx5UsnscC1B9BkIyQuurseHV%2F0vxc7StoPuJ5l33V3f64aih5Wbq6PpcIdpdCQh3iBAR%2B0CP9tnRWdLSNCuIQbKJLygXH2HBgDvC6UDeSuKdMMPbnukyJ1ZQvSoG9X%2FWc%2B1Hbbs2lKlMsyWQtMONcp1MwZWn22Oi13DHBeXs%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=IOQaCGMgK9YBsVMl&_ssign=hWi7cQeyJHoxWu1cd6J50Gb1rrQ%3D","pwd":1,"child":0,"desc":"成功"}
+10:13:18 - SUCCESS | login.login:73 - 小米账号登录成功
+10:13:18 - INFO  | login.login:75 - self.account.cookies["passToken"]:
+10:13:18 - INFO  | login.login:75 - V1:DXmurwq2/R1BHTELu6obCZ3wTOdN94rT5hG5FpOotk1DTfBCbpAHRvwIvAQpbh0uyxB8bIfTqTD/mcWFbQV4s4yUe1GHEP+AASd6spxTyHCDeT6su6zNKEw6PY3WwAf/pRFBc/priRiTSx0jxqP1TfD2ybTejRn8rBQGcHB/wuYFlDTDE+xnl1XqK9DFKdhxGoowVkTuGJy3Jv62K/zDdJynrHx9wUrXwtne48XJbrdr0iaEH+8mi+fXERqTz7NrRbVSQ59zDMx7fg5s9wkR5w7wtT0Dqj3p534vGMa4OMR9tkZekrL+0pTg/8OVUP4/
+10:13:18 - INFO  | login.login:77 - self.account.uid:
+10:13:18 - INFO  | login.login:77 - 1114280298
+10:13:18 - INFO  | login.login:78 - cookie:
+10:13:18 - INFO  | login.login:78 - {}
+10:13:20 - INFO  | login.login:81 - cookie:
+10:13:20 - INFO  | login.login:81 - {}
+10:13:20 - INFO  | login.login:83 - cookie:
+10:13:20 - INFO  | login.login:83 - {}
+10:13:20 - INFO  | miuitask.main:33 - cookie:
+10:13:20 - INFO  | miuitask.main:34 - {}
+10:15:13 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:15:13 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:15:13 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:15:13 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:15:13 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:15:13 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:15:13 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:15:13 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:15:13 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:15:13 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:15:13 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:15:13 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:15:13 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:15:13 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:15:15 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:15:17 - INFO  | login.get_cookies_by_passtk:145 - dict(response.cookies):
+10:15:17 - INFO  | login.get_cookies_by_passtk:145 - {}
+10:15:18 - DEBUG | login.login:68 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"umr+7GE+cHRV1PkYb1rBTw==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCQBaXeMFpOzsetP9jbefGVSd/3EwVGAijn2G45GCJ24ONkV0Am7WM/FCSoWhlVDiPd4xT6/3S/cdTS0Xnf2oMgzOqc18CktyvVQx+MarMxO4LieorhQWNeST5JOS+mL5TCOJWY/fEhxEMQ7mTC1PSYDNqVfV0HWuqW0qEqbUz5khRYMCE2TloipOXSWNvg67HmT0MShrOqLbd2vQAcsWNNjNNb2XY0malAhOrILIuhbTJWmXtcrC6U0BdIzpMp64pxUYI7p7mw9F7USb18a/4inCweqqr7YT3hmsDX1+/NO9","description":"成功","securityStatus":0,"nonce":611351942084850688,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"63KBVLt7r/CuyskagJkpgg==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902517000&fid=0&p_lm=1&auth=CorNH77a8HVKmoUSv7is0u1rSBG5iwAGwh6XaCaH1LTBsG%2BabfdswrlKiMDkd%2FjaRFFBsQOnMWsjdk2o%2BLVUZda6ZkHw2dgaTfYn%2FvY7gB1BdQNjDgo%2B8dXAtSs3lESo0bdNHz6gtOGSeIAj%2BNCsm735fhcDZUS%2FF4%2FJ8T8vhwE%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=w%2BhXRowM9DcBsVMn&_ssign=xypkfTTyVIkGArUxB6g5iM2TcBk%3D","pwd":1,"child":0,"desc":"成功"}
+10:15:18 - SUCCESS | login.login:73 - 小米账号登录成功
+10:15:18 - INFO  | login.login:75 - self.account.cookies["passToken"]:
+10:15:18 - INFO  | login.login:75 - V1:DXmurwq2/R1BHTELu6obCQBaXeMFpOzsetP9jbefGVSd/3EwVGAijn2G45GCJ24ONkV0Am7WM/FCSoWhlVDiPd4xT6/3S/cdTS0Xnf2oMgzOqc18CktyvVQx+MarMxO4LieorhQWNeST5JOS+mL5TCOJWY/fEhxEMQ7mTC1PSYDNqVfV0HWuqW0qEqbUz5khRYMCE2TloipOXSWNvg67HmT0MShrOqLbd2vQAcsWNNjNNb2XY0malAhOrILIuhbTJWmXtcrC6U0BdIzpMp64pxUYI7p7mw9F7USb18a/4inCweqqr7YT3hmsDX1+/NO9
+10:15:20 - INFO  | login.get_cookies_by_passtk:145 - dict(response.cookies):
+10:15:20 - INFO  | login.get_cookies_by_passtk:145 - {}
+10:15:20 - INFO  | miuitask.main:33 - cookie:
+10:15:20 - INFO  | miuitask.main:34 - {}
+10:16:24 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:16:24 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:16:24 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:16:24 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:16:24 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:16:24 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:16:24 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:16:24 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:16:24 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:16:24 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:16:24 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:16:24 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:16:24 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:16:24 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:16:26 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:16:26 - INFO  | login.get_cookies_by_passtk:140 - dict(response.cookies):
+10:16:26 - INFO  | login.get_cookies_by_passtk:140 - {}
+10:16:27 - INFO  | login.get_cookies_by_passtk:144 - dict(response.cookies):
+10:16:27 - INFO  | login.get_cookies_by_passtk:144 - {'deviceId': 'wb_80352b66-1707-4461-b58a-cc933784c883', 'pass_ua': 'web', 'uLocale': 'zh_CN'}
+10:16:28 - INFO  | login.get_cookies_by_passtk:147 - dict(response.cookies):
+10:16:28 - INFO  | login.get_cookies_by_passtk:147 - {}
+10:18:02 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:18:02 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:18:02 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:18:02 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:18:02 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:18:02 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:18:02 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:18:02 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:18:02 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:18:02 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:18:02 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:18:02 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:18:02 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:18:02 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:18:04 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:18:04 - INFO  | login.get_cookies_by_passtk:140 - dict(response.cookies):
+10:18:04 - INFO  | login.get_cookies_by_passtk:140 - {}
+10:18:05 - INFO  | login.get_cookies_by_passtk:144 - dict(response.cookies):
+10:18:05 - INFO  | login.get_cookies_by_passtk:144 - {'deviceId': 'wb_eb28fc29-3448-48c6-b90f-41eff4c5b6fe', 'pass_ua': 'web', 'uLocale': 'zh_CN'}
+10:18:06 - INFO  | login.get_cookies_by_passtk:147 - dict(response.cookies):
+10:18:06 - INFO  | login.get_cookies_by_passtk:147 - {}
+10:18:06 - DEBUG | login.login:68 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"1Rdx2tVgHxHrI0tjG0uN5A==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCQaS+hx1z+32vbZgpHvX3FvZLcxVHdwo2ldnsfHDNz+FJ9GXA3ThbJlrELpkpDg5M0valDUAINFNHW+rkNmlAQRRKfufCIRCdVxG2aeAzD3iaCiUXHHMsNvMYK7s29Yuijien7ldYBrsEPmKMMjspIJSEm5Q8NOfNFggLYzprSJW7nbW5jejNWd3acCUZbw0KqlLPYPNe3lDtbMVa+b7FlyCzmOANdEFe9dLYgzjOo7EWMnLOjLuekFfciGVHPo5KUB1vya0AcbcNhOKNU2wRogqgZL+05bgkIoYcVSmohW8","description":"成功","securityStatus":0,"nonce":5551930949936830464,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"8onoixnz/EoEVpWH/EWv4g==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902686000&fid=0&p_lm=1&auth=g4TpZLXpC87GJzn%2BejWUaR3N1J0Cpz7eAAxJxvkawP4cjPVkaErSy8Bvs4VdBENBSvpQ0AIhaEsQ4dfVV3dsfcRutDfLGw9RCqs5HM8M364UXnpfRaiHJH2UN1ODXJrEjNyBPSBVAxhDAT8miwVAmR8YB5%2BLnZvpWHTSlOEOf5s%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=eYdxZL7L%2B9EBsVMq&_ssign=oZd3kblPcwSk9W95W%2FFlbP%2FQgIM%3D","pwd":1,"child":0,"desc":"成功"}
+10:18:06 - SUCCESS | login.login:73 - 小米账号登录成功
+10:18:06 - INFO  | login.login:75 - self.account.cookies["passToken"]:
+10:18:06 - INFO  | login.login:75 - V1:DXmurwq2/R1BHTELu6obCQaS+hx1z+32vbZgpHvX3FvZLcxVHdwo2ldnsfHDNz+FJ9GXA3ThbJlrELpkpDg5M0valDUAINFNHW+rkNmlAQRRKfufCIRCdVxG2aeAzD3iaCiUXHHMsNvMYK7s29Yuijien7ldYBrsEPmKMMjspIJSEm5Q8NOfNFggLYzprSJW7nbW5jejNWd3acCUZbw0KqlLPYPNe3lDtbMVa+b7FlyCzmOANdEFe9dLYgzjOo7EWMnLOjLuekFfciGVHPo5KUB1vya0AcbcNhOKNU2wRogqgZL+05bgkIoYcVSmohW8
+10:18:07 - INFO  | login.get_cookies_by_passtk:140 - dict(response.cookies):
+10:18:07 - INFO  | login.get_cookies_by_passtk:140 - {}
+10:18:07 - INFO  | login.get_cookies_by_passtk:144 - dict(response.cookies):
+10:18:07 - INFO  | login.get_cookies_by_passtk:144 - {'deviceId': 'wb_7b911748-069e-4582-891d-3f259120518f', 'pass_ua': 'web', 'uLocale': 'zh_CN'}
+10:18:08 - INFO  | login.get_cookies_by_passtk:147 - dict(response.cookies):
+10:18:08 - INFO  | login.get_cookies_by_passtk:147 - {}
+10:18:08 - INFO  | miuitask.main:33 - cookie:
+10:18:08 - INFO  | miuitask.main:34 - {}
+10:20:33 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:20:33 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:20:33 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:20:33 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:20:33 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:20:33 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:20:33 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:20:33 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:20:33 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:20:33 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:20:33 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:20:33 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:20:33 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:20:33 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:20:34 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:20:34 - INFO  | login.get_cookies_by_passtk:140 - dict(response.cookies):
+10:20:34 - INFO  | login.get_cookies_by_passtk:140 - {}
+10:20:35 - INFO  | login.get_cookies_by_passtk:144 - dict(response.cookies):
+10:20:35 - ERROR | login.get_cookies_by_passtk:150 - 从passToken获取 Cookie 失败
+Traceback (most recent call last):
+
+  File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\miuitask.py", line 62, in <module>
+    asyncio.run(main())
+    │       │   └ <function main at 0x00000156D42CE700>
+    │       └ <function run at 0x00000156D47B07C0>
+    └ <module 'asyncio' from 'D:\\Scoop\\apps\\python311\\current\\Lib\\asyncio\\__init__.py'>
+
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object main at 0x00000156D61A4F60>
+           │      └ <function Runner.run at 0x00000156D60DFB00>
+           └ <asyncio.runners.Runner object at 0x00000156D618FE90>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<main() running at D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\miuitas...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000156D60DD760>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000156D618FE90>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000156D6198AE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000156D60DF4C0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000156D6011B20>
+    └ <Handle <TaskStepMethWrapper object at 0x00000156D8FAB5E0>()>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x00000156D8FAB5E0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x00000156D8FAB5E0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x00000156D8FAB5E0>()>
+
+  File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\miuitask.py", line 32, in main
+    cookies = await login_obj.login()
+                    │         └ <function Login.login at 0x00000156D8C6DA80>
+                    └ <utils.api.login.Login object at 0x00000156D8F75510>
+
+  File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\utils\api\login.py", line 57, in login
+    (cookies := await self.get_cookies_by_passtk(user_id=self.uid,
+                      │    │                             │    └ '1114280298'
+                      │    │                             └ <utils.api.login.Login object at 0x00000156D8F75510>
+                      │    └ <function Login.get_cookies_by_passtk at 0x00000156D8F6F880>
+                      └ <utils.api.login.Login object at 0x00000156D8F75510>
+
+> File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\utils\api\login.py", line 144, in get_cookies_by_passtk
+    log.info('dict(response.cookies):');log.info(dict(response.cookies))
+    │   │                               │   │         │        └ <property object at 0x00000156D74F2E80>
+    │   │                               │   │         └ <Response [302 Moved Temporarily]>
+    │   │                               │   └ <function Logger.info at 0x00000156D6A9F060>
+    │   │                               └ <loguru.logger handlers=[(id=1, level=20, sink=<stdout>), (id=2, level=10, sink='logs\日志文件.log')]>
+    │   └ <function Logger.info at 0x00000156D6A9F060>
+    └ <loguru.logger handlers=[(id=1, level=20, sink=<stdout>), (id=2, level=10, sink='logs\日志文件.log')]>
+
+  File "D:\Scoop\apps\python311\current\Lib\site-packages\httpx\_models.py", line 1151, in __getitem__
+    value = self.get(name)
+            │    │   └ 'cUserId'
+            │    └ <function Cookies.get at 0x00000156D74E3F60>
+            └ <Cookies[<Cookie deviceId=wb_949a32a1-d502-479a-ad0b-d50f0e04ea19 for .account.xiaomi.com />, <Cookie pass_ua=web for .accoun...
+  File "D:\Scoop\apps\python311\current\Lib\site-packages\httpx\_models.py", line 1096, in get
+    raise CookieConflict(message)
+          │              └ 'Multiple cookies exist with name=cUserId'
+          └ <class 'httpx.CookieConflict'>
+
+httpx.CookieConflict: Multiple cookies exist with name=cUserId
+10:20:36 - DEBUG | login.login:68 - &&&START&&&{"qs":"%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN","ssecurity":"zaE57s2AE0sEyaLmBCw25A==","code":0,"passToken":"V1:DXmurwq2/R1BHTELu6obCU7A15kVYPG1hYnp19hUsMoSZSiuphBPOTWf6CMAu6pnexc09UgpR3r+Mkf472vXrOCwdKj3HDRRp6DLVQ6uaQtqU9dY5XL27qyBAmvRQMB+H/E0en3AzvMagMRnHN7oCQAo3orE6kt1NJuwX9Y+mhjZjlLhahDku68YxPMiHi2kb1XWSE90KlQrgPLDlFkx6PXsHmiMrdJXWE8nInTlSp9AubRnnxzplOFFNN1kiYspc9Lg5zhI3fr3+327FA/zX7xzpVun1Dww+Q5t30MPYi1KxTYiL2yYXK8B3nB0wq9K","description":"成功","securityStatus":0,"nonce":5011229418741197824,"userId":1114280298,"cUserId":"KY_itmsXNH4JkJpe5zWJUu7hJyg","result":"ok","psecurity":"lnaDPVXG9YEO7Qc4iN59dQ==","captchaUrl":null,"location":"https://api-alpha.vip.miui.com/sts?d=S13aukyf5y2jecCG&ticket=0&pwd=1&p_ts=1703902835000&fid=0&p_lm=1&auth=qr%2BZiXxlF9WPcZK%2FJO2Pp7BjDv9aK4zk9XFkvN2PMKyRPqOpiUUDqf8T4U8YsTSLZciK9vGks8idL0YSWGsBQwF%2BnR9GUEJCiSJ%2Fm6CFn4BPBO6q1ho3cIWJaCmQ1XUoD5tPwJP%2BKMQlkwFa%2F5%2FQlI%2BcGs8TXxEa6UnvLyS%2B1BU%3D&m=1&_group=DEFAULT&tsl=0&p_ca=0&p_ur=CN&p_idc=China&nonce=gZSfn7HHwQ4BsVMs&_ssign=XBBhB005KH0dCUxV9dI%2F%2FNt6gl4%3D","pwd":1,"child":0,"desc":"成功"}
+10:20:36 - SUCCESS | login.login:73 - 小米账号登录成功
+10:20:36 - INFO  | login.login:75 - self.account.cookies["passToken"]:
+10:20:36 - INFO  | login.login:75 - V1:DXmurwq2/R1BHTELu6obCU7A15kVYPG1hYnp19hUsMoSZSiuphBPOTWf6CMAu6pnexc09UgpR3r+Mkf472vXrOCwdKj3HDRRp6DLVQ6uaQtqU9dY5XL27qyBAmvRQMB+H/E0en3AzvMagMRnHN7oCQAo3orE6kt1NJuwX9Y+mhjZjlLhahDku68YxPMiHi2kb1XWSE90KlQrgPLDlFkx6PXsHmiMrdJXWE8nInTlSp9AubRnnxzplOFFNN1kiYspc9Lg5zhI3fr3+327FA/zX7xzpVun1Dww+Q5t30MPYi1KxTYiL2yYXK8B3nB0wq9K
+10:20:36 - INFO  | login.get_cookies_by_passtk:140 - dict(response.cookies):
+10:20:36 - INFO  | login.get_cookies_by_passtk:140 - {}
+10:20:38 - INFO  | login.get_cookies_by_passtk:144 - dict(response.cookies):
+10:20:38 - ERROR | login.get_cookies_by_passtk:150 - 从passToken获取 Cookie 失败
+Traceback (most recent call last):
+
+  File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\miuitask.py", line 62, in <module>
+    asyncio.run(main())
+    │       │   └ <function main at 0x00000156D42CE700>
+    │       └ <function run at 0x00000156D47B07C0>
+    └ <module 'asyncio' from 'D:\\Scoop\\apps\\python311\\current\\Lib\\asyncio\\__init__.py'>
+
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           │      │   └ <coroutine object main at 0x00000156D61A4F60>
+           │      └ <function Runner.run at 0x00000156D60DFB00>
+           └ <asyncio.runners.Runner object at 0x00000156D618FE90>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<main() running at D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\miuitas...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x00000156D60DD760>
+           │    └ <ProactorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x00000156D618FE90>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\base_events.py", line 640, in run_until_complete
+    self.run_forever()
+    │    └ <function ProactorEventLoop.run_forever at 0x00000156D6198AE0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x00000156D60DF4C0>
+    └ <ProactorEventLoop running=True closed=False debug=False>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x00000156D6011B20>
+    └ <Handle <TaskStepMethWrapper object at 0x00000156D9071180>()>
+  File "D:\Scoop\apps\python311\current\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x00000156D9071180>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x00000156D9071180>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x00000156D9071180>()>
+
+  File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\miuitask.py", line 32, in main
+    cookies = await login_obj.login()
+                    │         └ <function Login.login at 0x00000156D8C6DA80>
+                    └ <utils.api.login.Login object at 0x00000156D8F75510>
+
+  File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\utils\api\login.py", line 77, in login
+    if (cookies := await self.get_cookies_by_passtk(api_data.userId, api_data.passToken)) is False:
+        │                │    │                     │        │       │        └ 'V1:DXmurwq2/R1BHTELu6obCU7A15kVYPG1hYnp19hUsMoSZSiuphBPOTWf6CMAu6pnexc09UgpR3r+Mkf472vXrOCwdKj3HDRRp6DLVQ6uaQtqU9dY5XL27qyBA...
+        │                │    │                     │        │       └ LoginResultHandler(content={'qs': '%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN', 'ssecurity': 'zaE57s2AE0sEyaLmBCw25...
+        │                │    │                     │        └ '1114280298'
+        │                │    │                     └ LoginResultHandler(content={'qs': '%3F_json%3Dtrue%26sid%3Dmiui_vip_a%26_locale%3Dzh_CN', 'ssecurity': 'zaE57s2AE0sEyaLmBCw25...
+        │                │    └ <function Login.get_cookies_by_passtk at 0x00000156D8F6F880>
+        │                └ <utils.api.login.Login object at 0x00000156D8F75510>
+        └ {}
+
+> File "D:\Downloads\Telegram Desktop\miuitask-1.0\miui-auto-tasks-by-eee\utils\api\login.py", line 144, in get_cookies_by_passtk
+    log.info('dict(response.cookies):');log.info(dict(response.cookies))
+    │   │                               │   │         │        └ <property object at 0x00000156D74F2E80>
+    │   │                               │   │         └ <Response [302 Moved Temporarily]>
+    │   │                               │   └ <function Logger.info at 0x00000156D6A9F060>
+    │   │                               └ <loguru.logger handlers=[(id=1, level=20, sink=<stdout>), (id=2, level=10, sink='logs\日志文件.log')]>
+    │   └ <function Logger.info at 0x00000156D6A9F060>
+    └ <loguru.logger handlers=[(id=1, level=20, sink=<stdout>), (id=2, level=10, sink='logs\日志文件.log')]>
+
+  File "D:\Scoop\apps\python311\current\Lib\site-packages\httpx\_models.py", line 1151, in __getitem__
+    value = self.get(name)
+            │    │   └ 'cUserId'
+            │    └ <function Cookies.get at 0x00000156D74E3F60>
+            └ <Cookies[<Cookie deviceId=wb_e7344e6a-da2f-49c7-9077-7cc9252394e2 for .account.xiaomi.com />, <Cookie pass_ua=web for .accoun...
+  File "D:\Scoop\apps\python311\current\Lib\site-packages\httpx\_models.py", line 1096, in get
+    raise CookieConflict(message)
+          │              └ 'Multiple cookies exist with name=cUserId'
+          └ <class 'httpx.CookieConflict'>
+
+httpx.CookieConflict: Multiple cookies exist with name=cUserId
+10:20:38 - INFO  | miuitask.main:33 - cookie:
+10:20:38 - INFO  | miuitask.main:34 - {}
+10:21:32 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:21:32 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:21:32 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:21:32 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:21:32 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:21:32 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:21:32 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:21:32 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:21:32 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:21:32 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:21:32 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:21:32 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:21:32 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:21:32 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:21:33 - DEBUG | sign.check_daily_tasks:84 - {"code":401}
+10:21:35 - INFO  | login.login:58 - Cookie无效，重新复写
+10:21:35 - DEBUG | sign.check_daily_tasks:84 - {"time":0,"message":"success","entity":[{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/Color_48_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dhZiI6IAUUVFapCd2l/ZsqLcsWVI\u003d","showType":1,"title":"4段 高级成员","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth?skipLocal\u003dtrue","desc":"社区成长等级"},"cakeType":1},{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/icons/badge/1/社区勋章_60s.png?GalaxyAccessKeyId\u003dAKU25VNGWI6E4RUEAW\u0026Expires\u003d9223372036854775807\u0026Signature\u003dUId7rM4TsrONiivzGigL4KJYPi0\u003d","showType":1,"title":"全新升级","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"社区勋章"},"cakeType":1},{"head":{"title":"每日任务","jumpText":"查看成长值规则","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growthRules"},"data":[{"secondTitle":"火爆","showType":1,"title":"抢先体验小米澎湃OS！","jumpText":"去参加","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1","desc":"火热进行中"},{"showType":0,"title":"每日签到","jumpText":"已完成","jumpUrl":"","desc":"签到奖励随机，以实际获得为准"},{"showType":0,"title":"浏览帖子超过10秒","jumpText":"已完成","jumpUrl":"mio://vipaccount.miui.com/main?tab\u003dmio\u0026sub_tab\u003drecommend","desc":"每次成长值+1，每日上限1分"}],"cakeType":2},{"head":{"title":"新手任务","jumpUrl":""},"data":[{"showType":0,"title":"首次完善个人资料","jumpText":"已完成","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/personalInfo","desc":"成长值+10，仅限首次"},{"showType":0,"title":"首次完成实名认证","jumpText":"已完成","jumpUrl":"https://certify.mipay.com/","desc":"成长值+10，仅限首次"}],"cakeType":2},{"head":{"title":"其他任务","jumpText":"更多任务","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop/gold"},"data":[{"showType":1,"title":"参与拔萝卜获得奖励","jumpText":"去看看","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/arrive","desc":"以活动页面为准"}],"cakeType":2}],"status":200}
+10:21:35 - INFO  | miuitask.main:37 - 开始执行抢先体验小米澎湃OS！任务
+10:21:35 - ERROR | miuitask.main:42 - 未找到抢先体验小米澎湃OS！任务
+10:21:35 - INFO  | miuitask.main:37 - 开始执行每日签到任务
+10:21:35 - INFO  | miuitask.main:39 - 每日签到任务已完成
+10:21:35 - INFO  | miuitask.main:37 - 开始执行浏览帖子超过10秒任务
+10:21:35 - INFO  | miuitask.main:39 - 浏览帖子超过10秒任务已完成
+10:21:35 - INFO  | miuitask.main:37 - 开始执行参与拔萝卜获得奖励任务
+10:21:36 - DEBUG | sign.sign:141 - {"status":200,"code":200,"message":"ok","entity":{"header":{"userId":1114280298,"vipType":-1,"moneyCount":220},"popup":1,"message":"获得1金币！","awardCoinCount":1,"tip":"连续拔7天萝卜可获得额外金币"}}
+10:21:36 - SUCCESS | sign.sign:148 - 参与拔萝卜获得奖励结果: ok
+10:21:37 - DEBUG | sign.user_info:181 - {"time":0,"message":"success","entity":{"userInfo":{"upgrade":false,"totalBadgeNum":4,"signature":"_","userGrowLevelInfo":{"easyLevelIconLight":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/easyLevelIconLight_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003d1Uam8Nx3J7EvovcSYOrKENZd8ps\u003d","level":4,"levelIconDark":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIconDark_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003d+khvdqisuVIjU2PL0x3+YhnJ5HI\u003d","levelIconLight":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIconLight_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dvMN7GtbM+Y+hP99G+n+HcqXPVXY\u003d","easyLevelIconDark":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/easyLevelIconDark_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dDVxaFgZnFilQegXUM67+8qW1EYE\u003d","title":"高级成员","showLevel":"4段","point":814,"levelIcon":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIcon_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dQkz1QKR1OciCCpmWoglmKgo9Y80\u003d"},"headUrl":"https://cdn.cnbj1.fds.api.mi-img.com/middle.community.vip.bkt/6d7d5d08723bff0c2be7ffb1f68347e9","userName":"冬天的叶子","identifyType":0,"userId":"1114280298","vipInfo":{"giveLikeNum":46,"announceCnt":27,"boardCnt":0,"elitePostNum":0,"growPointInfo":{"icon":"https://ts.market.mi-img.com/download/MiVip/0641029b3ecc84822a5fa776e78878cdc651a220e/互动分.png","name":"成长值","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth","points":814},"followerCnt":56,"expressNum":35,"followeeCnt":1},"identified":false,"createTime":0,"miNikeName":"冬天的叶子"},"myTools":[],"featureEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/e003f1581728f3ec962b568b9a8c0781-1680589719150_全部圈子.svg","name":"我的圈子","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/boardLive?showTitle\u003d1\u0026actionbarTitle\u003d%E5%85%A8%E9%83%A8%E5%9C%88%E5%AD%90"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/61d00c9174dbd8fe430b284beec82dac-1680589736007_我的收藏.svg","name":"我的收藏","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/collect"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/fdcac6a39a2aee241289aa0c267fa4bd-1680589712102_内测.svg","name":"我的内测","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/internalTest?type\u003d2"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/6c086f03ac014487fd0f8070b67929d0-1680589726782_我的活动.svg","name":"我的活动","jumpUrl":"http://vipaccount.miui.com/event"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/a88a8d6101353c512da4cec8f8ac4b1b-1680589704401_共建团.svg","name":"共建团","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/applicationList"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/9f52238f9a2de6cf5819a2a059547614-1680589678160_草稿箱.svg","name":"草稿箱","jumpUrl":"mio://vipaccount.miui.com/draftbox"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/95ecff94b59992d5072adfdcbefb2b8b-1680589694083_工具.svg","name":"实用工具","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/subject?actid\u003d331975630"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/458a0f37a08d77b422b5a013b6f5fce3-1680589684954_更多.svg","name":"更多频道","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/allplate"}],"bannerEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/e78f3cb1e8e22561e2ca1d1d4cc7f326-1698417092994_20231027-221541.jpg","name":"小米澎湃OS尝鲜计划","jumpUrl":"https://web.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/a30147b1250c99220e48c000fc6b46c7-1677652973247_社区成长体系banner.jpg","name":"成长值历史回顾","jumpUrl":"https://web.vip.miui.com/page/info/mio/mio/historyRecap?skipLocal\u003dtrue"}],"vipEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/4c4aafff4da38166550e370f7c462124-1653617941862_勋章.png","name":"我的勋章","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"全新升级"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/88c7925edb324ac6e843e74c77d859cb-1653617930051_社区周边.png","name":"金币商城","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop?showTitle\u003d0","desc":"限量发售"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/8368c8b68db39e016c9f0f2774848e23-1653617846374_签到.png","name":"每日签到","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/checkIn","desc":"签到得奖励"}],"otherTools":[{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f1a34637dd884b131956754059a15889-1637062287960_问题反馈_dark.svg","name":"反馈中心","jumpUrl":"mio://vipaccount.miui.com/feedbackcenter"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f3c8a8d0e0d8bc92efd05ff5bd3deb68-1637060937576_产品建议_dark.svg","name":"建议中心","jumpUrl":"mio://vipaccount.miui.com/advicecenter"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/210c9cd701428c935ea56a6ae0a100b4-1637117000734_举报记录_dark.svg","name":"举报记录","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/reportRecord"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f18a372ac3073bb4ceb982a2686e5c98-1637062172189_收货地址_dark.svg","name":"社区公约","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/detail?postId\u003d18118631"}]},"status":200}
+10:21:37 - INFO  | miuitask.main:52 - 高级成员 成长值: 814
+10:25:44 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:25:44 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:25:44 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:25:44 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:25:44 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:25:44 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:25:44 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:25:44 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:25:44 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:25:44 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:25:44 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:25:44 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:25:44 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:25:44 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:25:45 - DEBUG | sign.check_daily_tasks:84 - {"time":0,"message":"success","entity":[{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/Color_48_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dhZiI6IAUUVFapCd2l/ZsqLcsWVI\u003d","showType":1,"title":"4段 高级成员","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth?skipLocal\u003dtrue","desc":"社区成长等级"},"cakeType":1},{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/icons/badge/1/社区勋章_60s.png?GalaxyAccessKeyId\u003dAKU25VNGWI6E4RUEAW\u0026Expires\u003d9223372036854775807\u0026Signature\u003dUId7rM4TsrONiivzGigL4KJYPi0\u003d","showType":1,"title":"全新升级","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"社区勋章"},"cakeType":1},{"head":{"title":"每日任务","jumpText":"查看成长值规则","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growthRules"},"data":[{"secondTitle":"火爆","showType":1,"title":"抢先体验小米澎湃OS！","jumpText":"去参加","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1","desc":"火热进行中"},{"showType":0,"title":"每日签到","jumpText":"已完成","jumpUrl":"","desc":"签到奖励随机，以实际获得为准"},{"showType":0,"title":"浏览帖子超过10秒","jumpText":"已完成","jumpUrl":"mio://vipaccount.miui.com/main?tab\u003dmio\u0026sub_tab\u003drecommend","desc":"每次成长值+1，每日上限1分"}],"cakeType":2},{"head":{"title":"新手任务","jumpUrl":""},"data":[{"showType":0,"title":"首次完善个人资料","jumpText":"已完成","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/personalInfo","desc":"成长值+10，仅限首次"},{"showType":0,"title":"首次完成实名认证","jumpText":"已完成","jumpUrl":"https://certify.mipay.com/","desc":"成长值+10，仅限首次"}],"cakeType":2},{"head":{"title":"其他任务","jumpText":"更多任务","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop/gold"},"data":[{"showType":1,"title":"参与拔萝卜获得奖励","jumpText":"去看看","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/arrive","desc":"以活动页面为准"}],"cakeType":2}],"status":200}
+10:25:45 - INFO  | login.login:53 - Cookie有效，跳过登录
+10:25:46 - DEBUG | sign.check_daily_tasks:84 - {"time":0,"message":"success","entity":[{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/Color_48_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dhZiI6IAUUVFapCd2l/ZsqLcsWVI\u003d","showType":1,"title":"4段 高级成员","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth?skipLocal\u003dtrue","desc":"社区成长等级"},"cakeType":1},{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/icons/badge/1/社区勋章_60s.png?GalaxyAccessKeyId\u003dAKU25VNGWI6E4RUEAW\u0026Expires\u003d9223372036854775807\u0026Signature\u003dUId7rM4TsrONiivzGigL4KJYPi0\u003d","showType":1,"title":"全新升级","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"社区勋章"},"cakeType":1},{"head":{"title":"每日任务","jumpText":"查看成长值规则","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growthRules"},"data":[{"secondTitle":"火爆","showType":1,"title":"抢先体验小米澎湃OS！","jumpText":"去参加","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1","desc":"火热进行中"},{"showType":0,"title":"每日签到","jumpText":"已完成","jumpUrl":"","desc":"签到奖励随机，以实际获得为准"},{"showType":0,"title":"浏览帖子超过10秒","jumpText":"已完成","jumpUrl":"mio://vipaccount.miui.com/main?tab\u003dmio\u0026sub_tab\u003drecommend","desc":"每次成长值+1，每日上限1分"}],"cakeType":2},{"head":{"title":"新手任务","jumpUrl":""},"data":[{"showType":0,"title":"首次完善个人资料","jumpText":"已完成","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/personalInfo","desc":"成长值+10，仅限首次"},{"showType":0,"title":"首次完成实名认证","jumpText":"已完成","jumpUrl":"https://certify.mipay.com/","desc":"成长值+10，仅限首次"}],"cakeType":2},{"head":{"title":"其他任务","jumpText":"更多任务","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop/gold"},"data":[{"showType":1,"title":"参与拔萝卜获得奖励","jumpText":"去看看","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/arrive","desc":"以活动页面为准"}],"cakeType":2}],"status":200}
+10:25:46 - INFO  | miuitask.main:37 - 开始执行抢先体验小米澎湃OS！任务
+10:25:46 - ERROR | miuitask.main:42 - 未找到抢先体验小米澎湃OS！任务
+10:25:46 - INFO  | miuitask.main:37 - 开始执行每日签到任务
+10:25:46 - INFO  | miuitask.main:39 - 每日签到任务已完成
+10:25:46 - INFO  | miuitask.main:37 - 开始执行浏览帖子超过10秒任务
+10:25:46 - INFO  | miuitask.main:39 - 浏览帖子超过10秒任务已完成
+10:25:46 - INFO  | miuitask.main:37 - 开始执行参与拔萝卜获得奖励任务
+10:25:46 - DEBUG | sign.sign:141 - {"status":200,"code":200,"message":"ok","entity":{"header":{"userId":1114280298,"vipType":-1,"moneyCount":220},"popup":0,"message":"今天已经很累了，明天再来吧~","awardCoinCount":0}}
+10:25:46 - SUCCESS | sign.sign:148 - 参与拔萝卜获得奖励结果: ok
+10:25:47 - DEBUG | sign.user_info:181 - {"time":0,"message":"success","entity":{"userInfo":{"upgrade":false,"totalBadgeNum":4,"signature":"_","userGrowLevelInfo":{"easyLevelIconLight":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/easyLevelIconLight_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003d1Uam8Nx3J7EvovcSYOrKENZd8ps\u003d","level":4,"levelIconDark":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIconDark_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003d+khvdqisuVIjU2PL0x3+YhnJ5HI\u003d","levelIconLight":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIconLight_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dvMN7GtbM+Y+hP99G+n+HcqXPVXY\u003d","easyLevelIconDark":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/easyLevelIconDark_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dDVxaFgZnFilQegXUM67+8qW1EYE\u003d","title":"高级成员","showLevel":"4段","point":814,"levelIcon":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIcon_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dQkz1QKR1OciCCpmWoglmKgo9Y80\u003d"},"headUrl":"https://cdn.cnbj1.fds.api.mi-img.com/middle.community.vip.bkt/6d7d5d08723bff0c2be7ffb1f68347e9","userName":"冬天的叶子","identifyType":0,"userId":"1114280298","vipInfo":{"giveLikeNum":46,"announceCnt":27,"boardCnt":0,"elitePostNum":0,"growPointInfo":{"icon":"https://ts.market.mi-img.com/download/MiVip/0641029b3ecc84822a5fa776e78878cdc651a220e/互动分.png","name":"成长值","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth","points":814},"followerCnt":56,"expressNum":35,"followeeCnt":1},"identified":false,"createTime":0,"miNikeName":"冬天的叶子"},"myTools":[],"featureEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/e003f1581728f3ec962b568b9a8c0781-1680589719150_全部圈子.svg","name":"我的圈子","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/boardLive?showTitle\u003d1\u0026actionbarTitle\u003d%E5%85%A8%E9%83%A8%E5%9C%88%E5%AD%90"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/61d00c9174dbd8fe430b284beec82dac-1680589736007_我的收藏.svg","name":"我的收藏","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/collect"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/fdcac6a39a2aee241289aa0c267fa4bd-1680589712102_内测.svg","name":"我的内测","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/internalTest?type\u003d2"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/6c086f03ac014487fd0f8070b67929d0-1680589726782_我的活动.svg","name":"我的活动","jumpUrl":"http://vipaccount.miui.com/event"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/a88a8d6101353c512da4cec8f8ac4b1b-1680589704401_共建团.svg","name":"共建团","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/applicationList"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/9f52238f9a2de6cf5819a2a059547614-1680589678160_草稿箱.svg","name":"草稿箱","jumpUrl":"mio://vipaccount.miui.com/draftbox"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/95ecff94b59992d5072adfdcbefb2b8b-1680589694083_工具.svg","name":"实用工具","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/subject?actid\u003d331975630"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/458a0f37a08d77b422b5a013b6f5fce3-1680589684954_更多.svg","name":"更多频道","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/allplate"}],"bannerEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/e78f3cb1e8e22561e2ca1d1d4cc7f326-1698417092994_20231027-221541.jpg","name":"小米澎湃OS尝鲜计划","jumpUrl":"https://web.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/a30147b1250c99220e48c000fc6b46c7-1677652973247_社区成长体系banner.jpg","name":"成长值历史回顾","jumpUrl":"https://web.vip.miui.com/page/info/mio/mio/historyRecap?skipLocal\u003dtrue"}],"vipEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/4c4aafff4da38166550e370f7c462124-1653617941862_勋章.png","name":"我的勋章","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"全新升级"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/88c7925edb324ac6e843e74c77d859cb-1653617930051_社区周边.png","name":"金币商城","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop?showTitle\u003d0","desc":"限量发售"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/8368c8b68db39e016c9f0f2774848e23-1653617846374_签到.png","name":"每日签到","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/checkIn","desc":"签到得奖励"}],"otherTools":[{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f1a34637dd884b131956754059a15889-1637062287960_问题反馈_dark.svg","name":"反馈中心","jumpUrl":"mio://vipaccount.miui.com/feedbackcenter"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f3c8a8d0e0d8bc92efd05ff5bd3deb68-1637060937576_产品建议_dark.svg","name":"建议中心","jumpUrl":"mio://vipaccount.miui.com/advicecenter"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/210c9cd701428c935ea56a6ae0a100b4-1637117000734_举报记录_dark.svg","name":"举报记录","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/reportRecord"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f18a372ac3073bb4ceb982a2686e5c98-1637062172189_收货地址_dark.svg","name":"社区公约","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/detail?postId\u003d18118631"}]},"status":200}
+10:25:47 - INFO  | miuitask.main:52 - 高级成员 成长值: 814
+10:26:19 - INFO  | system_info.print_info:13 - MIUI-AUTO-TASK v1.7.4
+10:26:19 - INFO  | system_info.print_info:14 - ---------- 系统信息 -------------
+10:26:19 - INFO  | system_info.system_info:25 - 操作系统平台: Windows-10-10.0.25309-SP0
+10:26:19 - INFO  | system_info.system_info:26 - 操作系统版本: 10.0.25309
+10:26:19 - INFO  | system_info.system_info:27 - 操作系统名称: Windows
+10:26:19 - INFO  | system_info.system_info:28 - 操作系统位元: ('64bit', 'WindowsPE')
+10:26:19 - INFO  | system_info.system_info:29 - 操作系统类型: AMD64
+10:26:19 - INFO  | system_info.system_info:30 - 处理器信息: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+10:26:19 - INFO  | system_info.system_info:31 - Python 版本: 3.11.6 ('tags/v3.11.6:8b6ee5b', 'Oct  2 2023 14:57:12')
+10:26:19 - INFO  | system_info.print_info:16 - ---------- 项目信息 -------------
+10:26:19 - INFO  | system_info.print_info:17 - 这是一个免费且开源的项目，如果你是付费购买获得请务必退款
+10:26:19 - INFO  | system_info.print_info:18 - 项目地址：https://github.com/0-8-4/miui-auto-tasks
+10:26:19 - INFO  | system_info.print_info:19 - 欢迎 star，感谢所有项目贡献者，已经提交issues的人，帮助项目发展的人
+10:26:19 - INFO  | system_info.print_info:20 - ---------- 脚本日志 -------------
+10:26:20 - DEBUG | sign.check_daily_tasks:84 - {"time":0,"message":"success","entity":[{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/Color_48_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dhZiI6IAUUVFapCd2l/ZsqLcsWVI\u003d","showType":1,"title":"4段 高级成员","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth?skipLocal\u003dtrue","desc":"社区成长等级"},"cakeType":1},{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/icons/badge/1/社区勋章_60s.png?GalaxyAccessKeyId\u003dAKU25VNGWI6E4RUEAW\u0026Expires\u003d9223372036854775807\u0026Signature\u003dUId7rM4TsrONiivzGigL4KJYPi0\u003d","showType":1,"title":"全新升级","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"社区勋章"},"cakeType":1},{"head":{"title":"每日任务","jumpText":"查看成长值规则","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growthRules"},"data":[{"secondTitle":"火爆","showType":1,"title":"抢先体验小米澎湃OS！","jumpText":"去参加","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1","desc":"火热进行中"},{"showType":0,"title":"每日签到","jumpText":"已完成","jumpUrl":"","desc":"签到奖励随机，以实际获得为准"},{"showType":0,"title":"浏览帖子超过10秒","jumpText":"已完成","jumpUrl":"mio://vipaccount.miui.com/main?tab\u003dmio\u0026sub_tab\u003drecommend","desc":"每次成长值+1，每日上限1分"}],"cakeType":2},{"head":{"title":"新手任务","jumpUrl":""},"data":[{"showType":0,"title":"首次完善个人资料","jumpText":"已完成","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/personalInfo","desc":"成长值+10，仅限首次"},{"showType":0,"title":"首次完成实名认证","jumpText":"已完成","jumpUrl":"https://certify.mipay.com/","desc":"成长值+10，仅限首次"}],"cakeType":2},{"head":{"title":"其他任务","jumpText":"更多任务","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop/gold"},"data":[{"showType":1,"title":"参与拔萝卜获得奖励","jumpText":"去看看","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/arrive","desc":"以活动页面为准"}],"cakeType":2}],"status":200}
+10:26:20 - INFO  | login.login:53 - Cookie有效，跳过登录
+10:26:20 - DEBUG | sign.check_daily_tasks:84 - {"time":0,"message":"success","entity":[{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/Color_48_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dhZiI6IAUUVFapCd2l/ZsqLcsWVI\u003d","showType":1,"title":"4段 高级成员","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth?skipLocal\u003dtrue","desc":"社区成长等级"},"cakeType":1},{"head":{"img":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/icons/badge/1/社区勋章_60s.png?GalaxyAccessKeyId\u003dAKU25VNGWI6E4RUEAW\u0026Expires\u003d9223372036854775807\u0026Signature\u003dUId7rM4TsrONiivzGigL4KJYPi0\u003d","showType":1,"title":"全新升级","jumpText":"","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"社区勋章"},"cakeType":1},{"head":{"title":"每日任务","jumpText":"查看成长值规则","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growthRules"},"data":[{"secondTitle":"火爆","showType":1,"title":"抢先体验小米澎湃OS！","jumpText":"去参加","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1","desc":"火热进行中"},{"showType":0,"title":"每日签到","jumpText":"已完成","jumpUrl":"","desc":"签到奖励随机，以实际获得为准"},{"showType":0,"title":"浏览帖子超过10秒","jumpText":"已完成","jumpUrl":"mio://vipaccount.miui.com/main?tab\u003dmio\u0026sub_tab\u003drecommend","desc":"每次成长值+1，每日上限1分"}],"cakeType":2},{"head":{"title":"新手任务","jumpUrl":""},"data":[{"showType":0,"title":"首次完善个人资料","jumpText":"已完成","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/personalInfo","desc":"成长值+10，仅限首次"},{"showType":0,"title":"首次完成实名认证","jumpText":"已完成","jumpUrl":"https://certify.mipay.com/","desc":"成长值+10，仅限首次"}],"cakeType":2},{"head":{"title":"其他任务","jumpText":"更多任务","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop/gold"},"data":[{"showType":1,"title":"参与拔萝卜获得奖励","jumpText":"去看看","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/arrive","desc":"以活动页面为准"}],"cakeType":2}],"status":200}
+10:26:20 - INFO  | miuitask.main:37 - 开始执行抢先体验小米澎湃OS！任务
+10:26:20 - ERROR | miuitask.main:42 - 未找到抢先体验小米澎湃OS！任务
+10:26:20 - INFO  | miuitask.main:37 - 开始执行每日签到任务
+10:26:20 - INFO  | miuitask.main:39 - 每日签到任务已完成
+10:26:20 - INFO  | miuitask.main:37 - 开始执行浏览帖子超过10秒任务
+10:26:20 - INFO  | miuitask.main:39 - 浏览帖子超过10秒任务已完成
+10:26:20 - INFO  | miuitask.main:37 - 开始执行参与拔萝卜获得奖励任务
+10:26:23 - DEBUG | utils.get_token:260 - {"msg":"","code":0,"data":{"result":false,"id":"405551543bbb45619568be16c9de4341","url":"https://static-verify.sec.xiaomi.com/v2/html/check.html?t=1&k=3dc42a135a8d45118034d1ab68213073&e=7wCSnCBeiM6aDSPxCHIpv1UDZQgAm8vxjyIVB9j3X7IC5IKs%2BgxejeKkW0aISTIFXK3M1Nrtsu45n0xEYRDhDH26vGBs0rft9Eg0uiwsbAYjLKfV3qKErF07Bw204ViD6Uk8h5r0tB%2FpjkTbm8%2BTcvLmpGkJzdhmrajkejHuB8YSngb3Y%2F13si7%2Bs7ci50Eph9cC4Phyfh5ZGTRPEH4xqm74gpSnoHvL9z2y1EAmbBZI1JbrLzIgKK8LaCfVBFjkrZIbZN56kKatvLBS7oykTftZKxR9b6U8y1Q1mwshazPKJEHRdaeN%2F%2B8EQLwpGHVDnrLf7mLpGGNuLYgljv%2BeYaT%2FAAqJ2ZptObORztb1W6Q%3D&locale=zh_cn&eventId=405551543bbb45619568be16c9de4341&c=8351ae0ef2e0b2afdbafc3c4a2d22e6e&l=5b08a87147b9014be627de4933f52718","token":""}}
+10:26:23 - ERROR | utils.get_token:266 - 遇到人机验证码, 尝试调用解决方案
+10:26:23 - INFO  | utils.get_token_by_captcha:106 - 尝试使用2captcha获取token
+10:26:58 - INFO  | captcha.get_validate_by_2captcha:64 - 已拿到2captcha返回的challenge和validate
+10:26:59 - DEBUG | utils.get_token_by_captcha:126 - {"msg":"","code":0,"data":{"result":true,"id":"405551543bbb45619568be16c9de4341","token":"GFrV0n4NV0sdwTuWP2nybG88P/D24C2V5CGuof7n80j0TbVZmXCHN9m5uCjm6ocEtYTTWv5M0IVsASjeit9HcXayvpxDrjabSYh/gE3RMRQN/9Ybp5KRMh24ZaRCYIpvI7PwPNM1shaHLHqB5wwjI506brjIkD6VvXj588lGPTxdxieExncB4rB3BYpMc0orbAU+ByRjIbtVCOQV5a0mbCprkZzhRkHZzyMBLuaqTHh0y1OnNZU3ngTZtg2OTIHwc8EijW89m3vlO+JhFAySxUJjO9TxvbrRdtgvjBHeMhVKRVKPrQj2E6kG9LmM7lWj"}}
+10:27:00 - SUCCESS | utils.get_token_by_captcha:133 - 成功使用2captcha获取token并反馈
+10:27:01 - DEBUG | sign.sign:141 - {"status":200,"code":200,"message":"ok","entity":{"header":{"userId":1114280298,"vipType":-1,"moneyCount":220},"popup":0,"message":"今天已经很累了，明天再来吧~","awardCoinCount":0}}
+10:27:01 - SUCCESS | sign.sign:148 - 参与拔萝卜获得奖励结果: ok
+10:27:03 - DEBUG | sign.user_info:181 - {"time":0,"message":"success","entity":{"userInfo":{"upgrade":false,"totalBadgeNum":4,"signature":"_","userGrowLevelInfo":{"easyLevelIconLight":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/easyLevelIconLight_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003d1Uam8Nx3J7EvovcSYOrKENZd8ps\u003d","level":4,"levelIconDark":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIconDark_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003d+khvdqisuVIjU2PL0x3+YhnJ5HI\u003d","levelIconLight":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIconLight_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dvMN7GtbM+Y+hP99G+n+HcqXPVXY\u003d","easyLevelIconDark":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/easyLevelIconDark_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dDVxaFgZnFilQegXUM67+8qW1EYE\u003d","title":"高级成员","showLevel":"4段","point":814,"levelIcon":"https://cdn.cnbj1.fds.api.mi-img.com/vipmlmodel/community_grow_up_level_icon/levelIcon_4.png?GalaxyAccessKeyId\u003d5151729087601\u0026Expires\u003d9223372036854775807\u0026Signature\u003dQkz1QKR1OciCCpmWoglmKgo9Y80\u003d"},"headUrl":"https://cdn.cnbj1.fds.api.mi-img.com/middle.community.vip.bkt/6d7d5d08723bff0c2be7ffb1f68347e9","userName":"冬天的叶子","identifyType":0,"userId":"1114280298","vipInfo":{"giveLikeNum":46,"announceCnt":27,"boardCnt":0,"elitePostNum":0,"growPointInfo":{"icon":"https://ts.market.mi-img.com/download/MiVip/0641029b3ecc84822a5fa776e78878cdc651a220e/互动分.png","name":"成长值","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/growth","points":814},"followerCnt":56,"expressNum":35,"followeeCnt":1},"identified":false,"createTime":0,"miNikeName":"冬天的叶子"},"myTools":[],"featureEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/e003f1581728f3ec962b568b9a8c0781-1680589719150_全部圈子.svg","name":"我的圈子","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/boardLive?showTitle\u003d1\u0026actionbarTitle\u003d%E5%85%A8%E9%83%A8%E5%9C%88%E5%AD%90"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/61d00c9174dbd8fe430b284beec82dac-1680589736007_我的收藏.svg","name":"我的收藏","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/collect"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/fdcac6a39a2aee241289aa0c267fa4bd-1680589712102_内测.svg","name":"我的内测","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/internalTest?type\u003d2"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/6c086f03ac014487fd0f8070b67929d0-1680589726782_我的活动.svg","name":"我的活动","jumpUrl":"http://vipaccount.miui.com/event"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/a88a8d6101353c512da4cec8f8ac4b1b-1680589704401_共建团.svg","name":"共建团","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/applicationList"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/9f52238f9a2de6cf5819a2a059547614-1680589678160_草稿箱.svg","name":"草稿箱","jumpUrl":"mio://vipaccount.miui.com/draftbox"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/95ecff94b59992d5072adfdcbefb2b8b-1680589694083_工具.svg","name":"实用工具","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/subject?actid\u003d331975630"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/458a0f37a08d77b422b5a013b6f5fce3-1680589684954_更多.svg","name":"更多频道","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/allplate"}],"bannerEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/e78f3cb1e8e22561e2ca1d1d4cc7f326-1698417092994_20231027-221541.jpg","name":"小米澎湃OS尝鲜计划","jumpUrl":"https://web.vip.miui.com/page/info/mio/mio/blindBox/signUp?skipLocal\u003dtrue\u0026activityKey\u003dHyper2023\u0026isOnline\u003d1"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/a30147b1250c99220e48c000fc6b46c7-1677652973247_社区成长体系banner.jpg","name":"成长值历史回顾","jumpUrl":"https://web.vip.miui.com/page/info/mio/mio/historyRecap?skipLocal\u003dtrue"}],"vipEntrance":[{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/4c4aafff4da38166550e370f7c462124-1653617941862_勋章.png","name":"我的勋章","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/badge?skipLocal\u003dtrue","desc":"全新升级"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/88c7925edb324ac6e843e74c77d859cb-1653617930051_社区周边.png","name":"金币商城","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/newshop?showTitle\u003d0","desc":"限量发售"},{"icon":"https://cdn.cnbj1.fds.api.mi-img.com/planet/8368c8b68db39e016c9f0f2774848e23-1653617846374_签到.png","name":"每日签到","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/checkIn","desc":"签到得奖励"}],"otherTools":[{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f1a34637dd884b131956754059a15889-1637062287960_问题反馈_dark.svg","name":"反馈中心","jumpUrl":"mio://vipaccount.miui.com/feedbackcenter"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f3c8a8d0e0d8bc92efd05ff5bd3deb68-1637060937576_产品建议_dark.svg","name":"建议中心","jumpUrl":"mio://vipaccount.miui.com/advicecenter"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/210c9cd701428c935ea56a6ae0a100b4-1637117000734_举报记录_dark.svg","name":"举报记录","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/reportRecord"},{"icon":"https://cnbj1.fds.api.xiaomi.com/planet/f18a372ac3073bb4ceb982a2686e5c98-1637062172189_收货地址_dark.svg","name":"社区公约","jumpUrl":"https://web-alpha.vip.miui.com/page/info/mio/mio/detail?postId\u003d18118631"}]},"status":200}
+10:27:03 - INFO  | miuitask.main:52 - 高级成员 成长值: 814
