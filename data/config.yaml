@@ -1,5 +1,5 @@
 preference:
-    geetest_url: http://gs.srap.link:8087/getvalidate
+    geetest_url: http://隐藏.srap.link:8087/getvalidate
     geetest_params: {}
     geetest_data:
         gt: '{gt}'
