@@ -18,9 +18,9 @@ accounts:
         Version/4.0 Chrome/116.0.0.0 Safari/537.36
     device: 'lmipro'
     device_model: 'Redmi K30 Pro Zoom Edition'
-    CheckIn: true
+    CheckIn: false
     BrowseUserPage: false
-    BrowsePost: true
+    BrowsePost: false
     BrowseVideoPost: true
     ThumbUp: false
     BrowseSpecialPage: false
@@ -36,10 +36,10 @@ accounts:
         Version/4.0 Chrome/116.0.0.0 Safari/537.36
     device: 'lmipro'
     device_model: 'Redmi K30 Pro Zoom Edition'
-    CheckIn: true
+    CheckIn: false
     BrowseUserPage: false
-    BrowsePost: true
-    BrowseVideoPost: true
+    BrowsePost: false
+    BrowseVideoPost: false
     ThumbUp: false
     BrowseSpecialPage: false
     BoardFollow: false
