@@ -4,7 +4,7 @@
  此仓库为eee修改青龙本地版  　本人上传并做适当修改作为2captcha付费打码专用。
 
 
-1.   订阅前需知　本仓库在乌班图docker平台青龙2.17.3上测试运行　不保证其他平台运行正常　不喜勿喷　订阅地址如下
+1.   订阅前需知　本仓库在乌班图docker平台青龙2.17.2上测试运行　不保证其他平台运行正常　不喜勿喷　订阅地址如下
 <pre><code class="language-html">ql repo https://github.com/klcb2010/miui-auto-tasks-by-eee.git miuitask|firstrun utils|init utils|config main py|yaml|sh</code></pre>
  
 
