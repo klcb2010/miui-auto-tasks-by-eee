@@ -1,5 +1,5 @@
 preference:
-    geetest_url: https://2captcha.com/zh/statistics/graph_captures
+    geetest_url: https://gs.srap.link/getvalidate
     geetest_params: {}
     geetest_data:
         gt: '{gt}'
