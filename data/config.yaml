@@ -49,5 +49,5 @@ ONEPUSH:
     params:
         title: 社区签到结果
         markdown: false
-        token: {}
+        token: 空一格保持
         userid: ''
