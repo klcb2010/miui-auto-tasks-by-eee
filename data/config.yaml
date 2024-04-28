@@ -21,7 +21,7 @@ accounts:
     CheckIn: true
     BrowseUserPage: false
     BrowsePost: true
-    BrowseVideoPost: true
+    BrowseVideoPost: false
     ThumbUp: false
     BrowseSpecialPage: false
     BoardFollow: false
@@ -39,7 +39,7 @@ accounts:
     CheckIn: true
     BrowseUserPage: false
     BrowsePost: true
-    BrowseVideoPost: true
+    BrowseVideoPost: false
     ThumbUp: false
     BrowseSpecialPage: false
     BoardFollow: false
