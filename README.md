@@ -1,7 +1,7 @@
 <span style="color:red;">尊重原著  　
 　fork  不得修改仓库名称  　原版仓库如下
  </span> <pre><code class="language-html">https://github.com/0-8-4/miui-auto-tasks.git</code></pre> 
- 此仓库为eee修改青龙本地版   　本人上传并做适当修改作为2captcha付费打码专用   没有微信小程序签到。
+ 此仓库为eee修改青龙本地版   　本人上传并做适当修改作为2captcha付费打码专用   　没有微信小程序签到
 
 
 1.   订阅前需知　本仓库在乌班图docker平台青龙2.17.2上测试运行　不保证其他平台运行正常　不喜勿喷　订阅地址如下
