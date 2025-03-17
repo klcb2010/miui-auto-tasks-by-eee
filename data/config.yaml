@@ -39,7 +39,7 @@ accounts:
     CheckIn: true
     BrowseUserPage: false
     BrowsePost: true
-    BrowseVideoPost: false
+    BrowseVideoPost: true
     ThumbUp: false
     BrowseSpecialPage: false
     BoardFollow: false
