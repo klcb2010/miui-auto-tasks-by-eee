@@ -44,7 +44,7 @@ accounts:
     BrowseSpecialPage: false
     BoardFollow: false
     CarrotPull: false
-    WxSign: false
+    WxSign: true
 ONEPUSH:
     notifier: pushplus
     params:
