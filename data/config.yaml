@@ -26,6 +26,7 @@ accounts:
     BrowseSpecialPage: false
     BoardFollow: false
     CarrotPull: false
+    WxSign: true
 -   uid: ''
     password: ''
     cookies: {}
@@ -39,7 +40,7 @@ accounts:
     CheckIn: true
     BrowseUserPage: false
     BrowsePost: true
-    BrowseVideoPost: true
+    BrowseVideoPost: false
     ThumbUp: false
     BrowseSpecialPage: false
     BoardFollow: false
