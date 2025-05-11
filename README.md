@@ -3,6 +3,8 @@
  </span> <pre><code class="language-html">https://github.com/0-8-4/miui-auto-tasks.git</code></pre> 
  此仓库为eee修改青龙本地版   　本人上传并做适当修改作为2captcha付费打码专用
 
+感谢 Kesally 提交微信小程序签到  功能
+
 
 1.   订阅前需知
 本仓库已在乌班图docker平台青龙2.17.2 Debian docker平台青龙2.18.2 Windows Server 2022 Python3.11 上测试运行　不保证其他平台运行正常　不喜勿喷　订阅地址如下
